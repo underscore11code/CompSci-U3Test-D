@@ -12,6 +12,7 @@ public class CoolDevices {
 
     System.out.println("Which shipping method do you prefer? Priority (1), Express (2), or Standard (3)?");
     final int shippingNumber = scanner.nextInt();
+    scanner.close();
     int shippingCost;
 
     switch (shippingNumber) {
